@@ -1,39 +1,48 @@
 .body {
-	background-image: url('../images/pgg.jpg');
+	background-color: #002E63;
 }
 
 .page {
-	margin: 20px auto auto;
+	margin: 5% auto auto;
 	width: 90%;
 	border: 1px solid black;
 	text-align: center;
 	background-color: white;
+	background-image: url("../images/background.png");
+	background-repeat: repeat-x;
 }
 
-.banner {
-	position: relative;
-	width: 100%;
-	height: 7%;
-}
-
-.banner h1 {
-	position: absolute;
-	width: 100%;
-	margin-top: 2%;
-	top: 0;
-	text-align: right;
-	color: white;
-}
-
-.banner span.spacer {
-   padding: 0 2%;
-}
-
-.banner img {
+.spacer {
+   padding: 2% 2%;
 }
 
 a {
 	font-size: 1em;
+}
+
+ul {
+	text-align: left;
+	display: inline-block;
+}
+
+.banner {
+	margin: auto;
+	padding: 1% 0;
+	width: 100%;
+	top: 0;
+}
+
+.home {
+	text-decoration: none;
+}
+
+h1.banner {
+	text-align: right;
+	color: white;
+}
+
+.banner span.color {
+	color: blue;
 }
 
 .navigation {
@@ -59,4 +68,14 @@ a {
 	background-color:lavender;
 	border-top: 1px solid purple;
 	border-bottom: 1px solid purple;
+}
+
+.sample {
+	margin: 0 40%;
+}
+
+.copyright {
+	padding: 0.75%;
+	text-align: left;
+	font-size: 0.75em;
 }
