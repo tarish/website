@@ -22,7 +22,7 @@ var numdaysinweek = 7;
 var daytemp = 1;
 
 if (((thisyear % 4 == 0) && (thisyear % 100 != 0)) || (thisyear % 400 == 0)) numdaysinmonth[1]++;
-document.write("<caption>" + monthnames[thismonth] + " " + thisyear + "</caption>");
+document.write('<caption>' + monthnames[thismonth] + " " + thisyear + "</caption>");
 document.write("<thead><tr>");
     document.write("<th abbr=\"Sunday\" scope=\"col\" title=\"Sunday\">S</th>");
     document.write("<th abbr=\"Monday\" scope=\"col\" title=\"Monday\">M</th>");
@@ -36,17 +36,19 @@ document.write("</tr></thead>");
 document.write("<tbody>");
 for (var i = 0; i < numcalsquares; i++) {
         if(i % 7 == 0) { document.write("<tr>"); }
+        //pad before first day of month
         if(i < firstdayofmonth && firstdayofmonth > 0) {
             for(r = 0; r < firstdayofmonth; r++) {
-	            document.write("<td class=\"pad\"></td>");
+	            document.write("<td></td>");
 	            numdaysinweek--;
             }
             i += r-1;
         }
+        //pad after last day of month
         else if(i >= (daysinmonth + firstdayofmonth) && numdaysnotlastweek > 0) {
             i += numdaysnotlastweek;
             while(numdaysnotlastweek > 0) {
-	            document.write("<td class=\"pad\"></td>");
+	            document.write("<td></td>");
 	            numdaysnotlastweek--;
             }
         }
