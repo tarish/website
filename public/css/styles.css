@@ -11,14 +11,7 @@
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1em;
-}
-
-.spacer {
-   padding: 2% 2%;
-}
-
-.underline {
-	text-decoration: underline;
+	min-width: 470px;
 }
 
 ul {
@@ -47,7 +40,7 @@ h3.banner {
 	font-size: 1.5em;
 }
 
-span.color {
+.color {
 	color: blue;
 }
 
@@ -56,6 +49,7 @@ span.color {
 	width: 50%;
 	display: inline-block;
 	font-size: 1.35em;
+	min-width: inherit;
 }
 
 .navigation ul {
@@ -87,12 +81,20 @@ span.color {
 	border-bottom: 6px solid #0F4D92;
 }
 
-.introduction {
+.content {
 	font-size: 1.07em;
+}
+
+.projects {
+	text-align: left;
 }
 
 .languages {
 	font-size: 0.95em;
+}
+
+.languages span {
+	text-decoration: underline;
 }
 
 .calendar {
@@ -111,10 +113,6 @@ span.color {
 
 .sample {
 	margin: 0 40%;
-}
-
-.projects {
-	text-align: left;
 }
 
 .copyright {
