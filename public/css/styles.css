@@ -16,15 +16,16 @@
 
 ul {
 	text-align: left;
-	display: inline-block;
+	display: block;
 }
 
 .home {
 	text-decoration: none;
+	display: block;
 }
 
 .banner {
-	margin: auto;
+	margin: 0 auto;
 	top: 0;
 }
 
@@ -47,7 +48,7 @@ h3.banner {
 .navigation {
 	margin: auto;
 	width: 50%;
-	display: inline-block;
+	display: block;
 	font-size: 1.35em;
 	min-width: inherit;
 }
@@ -83,6 +84,7 @@ h3.banner {
 
 .content {
 	font-size: 1.07em;
+	display: block;
 }
 
 .projects {
