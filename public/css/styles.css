@@ -91,6 +91,35 @@ h3.banner {
 	text-align: left;
 }
 
+#networks {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#networks li {
+	float: left;
+	margin: 0.75em;
+}
+
+#networks a {
+	display: block;
+	width: 2.25em;
+}
+
+#networks img {
+	height: 2em;
+	width: 2em;
+}
+
+.places {
+	list-style-type: none;
+	margin: 0 2em;
+	padding: 0;
+	display: inline-block;
+}
+
 .languages {
 	font-size: 0.95em;
 }
