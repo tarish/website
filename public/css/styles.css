@@ -9,7 +9,7 @@
 	margin: auto;
 	width: 75%;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif; //"pt-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	min-width: 470px;
 }
